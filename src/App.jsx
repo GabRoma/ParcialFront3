@@ -16,7 +16,7 @@ function App() {
             setError('');
             setName(name);
             setColor(color.startsWith('#') ? color : `#${color}`);
-            setAnimal(animal); // Actualizar el animal
+            setAnimal(animal);
         }
     };
 

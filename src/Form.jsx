@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 const Form = ({ onSubmit, error }) => {
     const [name, setName] = useState('');
     const [color, setColor] = useState('');
-    const [animal, setAnimal] = useState(''); // Nuevo estado para el animal
+    const [animal, setAnimal] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onSubmit(name, color, animal); // Pasar el animal seleccionado
+        onSubmit(name, color, animal);
     };
 
     return (
